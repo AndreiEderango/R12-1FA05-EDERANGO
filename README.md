@@ -1,1 +1,12 @@
-# FA05
+x1 = int(input("What is the x-axis? "))
+x2= int(input("What is the 2nd x-axis? "))
+y1 = int(input("What is the y-axis? "))
+y2 = int(input("What is the 2nd y-axis? "))
+x = (x1,y1)
+y = (x2,y2)
+print("The first point has the coordinates", x)
+print("The second point has the coordinates", y)
+distance = (((x2 - x1)**2) + (y2 - y1)**2)**0.5
+rounded_distance = (round(distance))
+print("The distance between the two points given is", distance)
+print("The rounded off value is", rounded_distance)
